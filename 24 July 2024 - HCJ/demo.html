@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para change</title>
+</head>
+<body>
+    <p id="one">Hello</p>
+
+    <script>
+        var para = document.getElementById('one')
+        console.log(para.textContent)
+        para.textContent = 'Bye'
+        console.log(para.textContent)
+    </script>
+</body>
+</html>

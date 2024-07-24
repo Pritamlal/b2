@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Word through Button</title>
+</head>
+<body>
+    <p id="one">Hey Hello What's Up?</p>
+    <button onClick="change()">Change</button>
+
+    <script>
+        var word = document.getElementById("one");
+        console.log(word.textContent);
+
+        function change(){
+            word.textContent = "Pritam @ Microsoft";
+        }
+    </script>
+</body>
+</html>
